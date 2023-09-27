@@ -62,7 +62,7 @@ let colors = {
 }
 console.log(colors)
 
-let { red, rgb, rgb: [first, second, { rgbColor }], hex, hex: { hex1, hex2, hex2: { gray, green: [greenColor] }, hex3, hex3: [colorCode1, colorCode2] } } = colors;
+let { red, rgb, rgb: [first, second, { rgbColor }], hex, hex: { hex1, hex2, hex2: { gray, green, green: [greenColor] }, hex3, hex3: [colorCode1, colorCode2] } } = colors;
 console.log(">>>>>>>>red<<<<<<<<")
 console.log(red)
 
@@ -70,6 +70,7 @@ console.log(">>>>>>>>rgb<<<<<<<<")
 console.log(rgb)
 console.log("first....", first)
 console.log("second....", second)
+// console.log("third", third)
 console.log("third...", rgbColor)
 
 console.log(">>>>>>>>hex<<<<<<<<")
@@ -77,6 +78,7 @@ console.log(hex)
 console.log("hex1", hex1)
 console.log("hex2", hex2)
 console.log(gray)
+console.log(green)
 console.log(greenColor)
 console.log("hex3", hex3)
 console.log(colorCode1)
